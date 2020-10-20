@@ -17,7 +17,6 @@ justify-content: space-evenly;
 
 height: 200px;
 background: greenyellow;
-border: 5px;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
@@ -39,8 +38,45 @@ align-items: center;
 .child2 {
   
   height: 200px;
-  background: rgb(17, 129, 73)
+  background: rgb(17, 129, 73);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
   }
+
+.child21{
+background-color: khaki;
+height: 80%;
+width: 18%;
+
+}
+
+.child22{
+background-color: rgb(70, 43, 189);
+height: 80%;
+width: 78%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+.child221{
+  background-color: lightsalmon;
+  width: 97%;
+  height: 31%
+}
+.child222{
+  background-color: lightsalmon;
+  width: 97%;
+  height: 31%
+}
+.child223{
+  background-color: lightsalmon;
+  width: 97%;
+  height: 31%
+}
+
 
 
   .child3 {
