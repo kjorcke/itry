@@ -1,3 +1,46 @@
-body {
-  font-family: sans-serif;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+.parent
+{
+height: 100vh;
+border: 20px solid rgb(223, 85, 85);
+align-items: stretch;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.child1 {
+
+height: 200px;
+background: greenyellow;
+border: 5px;
+
+}
+.child11 {
+  height: 100px;
+  background: rgb(56, 119, 190);
+} 
+.child12 {
+  height: 100px;
+  background: rgb(206, 101, 180)
+}
+
+
+.child2 {
+  
+  height: 200px;
+  background: rgb(17, 129, 73)
+  }
+
+
+  .child3 {
+    
+    height: 200px;
+    background: rgb(168, 37, 92)
+    } 
+ 
+  .
