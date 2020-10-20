@@ -18,14 +18,20 @@ justify-content: space-evenly;
 height: 200px;
 background: greenyellow;
 border: 5px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
 
 }
 .child11 {
-  height: 100px;
+  height: 80px;
+  width: 97%;
   background: rgb(56, 119, 190);
 } 
 .child12 {
-  height: 100px;
+  height: 80px;
+  width: 97%;
   background: rgb(206, 101, 180)
 }
 
