@@ -42,7 +42,6 @@ height: 15%;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  flex-grow: 5;
   }
 
 .child21{
@@ -64,19 +63,60 @@ align-items: center;
 .child221{
   background-color: lightsalmon;
   width: 97%;
-  height: 31%
+  height: 31%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.child2211{
+  background-color: rgb(172, 71, 212);
+  height: 90%;
+  width:68%;
+}
+.child2212{
+  background-color: rgb(71, 212, 118);
+  height: 90%;
+  width: 28%;
 }
 .child222{
   background-color: lightsalmon;
   width: 97%;
-  height: 31%
+  height: 31%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.child2221{
+  background-color: rgb(71, 212, 118);
+  height: 90%;
+  width: 28%;
+}
+.child2222{
+  background-color: rgb(172, 71, 212);
+  height: 90%;
+  width: 68%;
 }
 .child223{
   background-color: lightsalmon;
   width: 97%;
-  height: 31%
+  height: 31%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
+.child2231{
+  background-color: rgb(172, 71, 212);
+  height: 90%;
+  width: 68%;
+}
+.child2232{
+  background-color: rgb(71, 212, 118);
+  height: 90%;
+  width: 28%;
+}
 
 
   .child3 {
