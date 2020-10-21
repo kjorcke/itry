@@ -20,21 +20,60 @@ display: flex;
 flex-direction: row;
 justify-content: space-evenly;
 align-items: center;
-height: 15%;
+height: 20%;
 
 }
 .child11 {
   height: 90%;
   width: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   background: rgb(56, 119, 190);
 } 
+.logo {
+  height: 100%;
+  
+}
 .child12 {
   height: 90%;
   width: 78%;
-  background: rgb(206, 101, 180)
+  background: rgb(206, 101, 180);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.child121{
+  background-color: rgb(248, 248, 12);
+  height: 60%;
+  width:97%;
 }
 
+.child122{
+  background-color: rgb(231, 112, 14);
+  height: 30%;
+  width: 97%;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+button {
+  background-color: #f11009;
+  color: #00040c;
+  border: none;
+  height: 95%;
+  width: 180px;
+  margin: 10px;
+  font-size: 25px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
 
+button:hover {
+  background-color: #ec1198;
+}
 .child2 {
   height: 75%;
   background: rgb(17, 129, 73);
@@ -48,7 +87,10 @@ height: 15%;
 background-color: khaki;
 height: 90%;
 width: 18%;
-
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
 }
 
 .child22{
@@ -122,7 +164,7 @@ align-items: center;
   .child3 {
     background: rgb(168, 37, 92);
     flex-grow: 1;
-    height: 10%;
+    height: 5%;
     } 
  
   .
