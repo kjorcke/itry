@@ -3,6 +3,13 @@
   margin: 0;
   padding: 0;
 }
+p{
+  font-size: 18px;
+  color: whitesmoke;
+}
+.images{
+  height:95%;
+}
 .parent
 {
 height: 100vh;
@@ -48,8 +55,18 @@ height: 20%;
   background-color: rgb(248, 248, 12);
   height: 60%;
   width:97%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-
+.titel{
+  color: black;
+  font-size: 50px;
+  background-color: white;
+  border-radius: 4px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
 .child122{
   background-color: rgb(231, 112, 14);
   height: 30%;
@@ -115,11 +132,17 @@ align-items: center;
   background-color: rgb(172, 71, 212);
   height: 90%;
   width:68%;
+  border-radius: 4px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 .child2212{
   background-color: rgb(71, 212, 118);
   height: 90%;
   width: 28%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .child222{
   background-color: lightsalmon;
@@ -134,11 +157,17 @@ align-items: center;
   background-color: rgb(71, 212, 118);
   height: 90%;
   width: 28%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .child2222{
   background-color: rgb(172, 71, 212);
   height: 90%;
   width: 68%;
+  border-radius: 4px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 .child223{
   background-color: lightsalmon;
@@ -153,11 +182,17 @@ align-items: center;
   background-color: rgb(172, 71, 212);
   height: 90%;
   width: 68%;
+  border-radius: 4px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 .child2232{
   background-color: rgb(71, 212, 118);
   height: 90%;
   width: 28%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 
@@ -165,6 +200,9 @@ align-items: center;
     background: rgb(168, 37, 92);
     flex-grow: 1;
     height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     } 
  
   .
